@@ -1,1 +1,1 @@
-
+game.splash("v")
