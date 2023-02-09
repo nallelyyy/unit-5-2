@@ -20,11 +20,13 @@ controller.menu.onEvent(ControllerButtonEvent.Pressed, function () {
     new_question = game.askForString("true or false? : the word is flat. ")
     while (new_question == "false") {
         mySprite.sayText("you are correct.")
+        mySprite.sayText("Press \"A\"")
     }
     if (new_question == "true") {
         mySprite.sayText("the world is not flat, you are wrong.")
+        mySprite.sayText("Press \"A\"")
     }
 })
 let new_question = ""
 let mySprite: Sprite = null
-game.splash("press \"menu\"")
+game.splash("press \"menu\" at the end when screen is just blizzards.")
