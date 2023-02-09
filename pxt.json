@@ -2,13 +2,15 @@
     "name": "unit 5 #2",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "partnered program": "pkg:partnered program.json"
     },
     "files": [
         "main.blocks",
         "main.ts",
         "README.md",
-        "assets.json"
+        "assets.json",
+        "partnered program.json"
     ],
     "testFiles": [
         "test.ts"
