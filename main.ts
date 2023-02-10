@@ -26,6 +26,7 @@ controller.menu.onEvent(ControllerButtonEvent.Pressed, function () {
         mySprite.sayText("the world is not flat, you are wrong.")
         mySprite.sayText("Press \"A\"")
     }
+    game.splash("now use arrow controller and go up.")
 })
 let new_question = ""
 let mySprite: Sprite = null
