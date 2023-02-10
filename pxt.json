@@ -10,7 +10,7 @@
         "main.ts",
         "README.md",
         "assets.json",
-        "partnered program.json"
+        
     ],
     "testFiles": [
         "test.ts"
