@@ -1,3 +1,6 @@
+controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
+	
+})
 controller.menu.onEvent(ControllerButtonEvent.Pressed, function () {
     mySprite = sprites.create(img`
         . . . . . . 5 . 5 . . . . . . . 
